@@ -1,7 +1,7 @@
 // src/main.js
-import 'simplelightbox/dist/simple-lightbox.min.css'; // стили SLB
-import 'izitoast/dist/css/iziToast.min.css'; // стили iziToast
-import './styles/styles.css'; // твои стили (включая css-loader spinner)
+import 'simplelightbox/dist/simple-lightbox.min.css';
+import 'izitoast/dist/css/iziToast.min.css';
+import './styles/styles.css';
 import iziToast from 'izitoast';
 import { getImagesByQuery } from './js/pixabay-api';
 import {
