@@ -9,7 +9,6 @@ const api = axios.create({
     key: API_KEY,
     image_type: 'photo',
     orientation: 'horizontal',
-    safesearch: true,
   },
 });
 

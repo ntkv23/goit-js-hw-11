@@ -1,15 +1,14 @@
-// src/main.js
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import 'izitoast/dist/css/iziToast.min.css';
-import './styles/styles.css';
+import './css/styles.css';
 import iziToast from 'izitoast';
-import { getImagesByQuery } from './js/pixabay-api';
+import { getImagesByQuery } from './js/pixabay-api.js';
 import {
   createGallery,
   clearGallery,
   showLoader,
   hideLoader,
-} from './js/render-functions';
+} from './js/render-functions.js';
 
 const form = document.getElementById('search-form');
 const input = document.getElementById('search-text');
